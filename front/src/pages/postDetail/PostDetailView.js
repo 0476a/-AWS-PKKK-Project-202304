@@ -5,7 +5,7 @@ import HeaderUI from './model/HeaderUI';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useQuery } from 'react-query';
 import axios from 'axios';
-import { awsURL, localURL } from '../../config/ApiURL';
+import { localURL } from '../../config/ApiURL';
 import Cookies from 'js-cookie';
 
 const PostDetailView = () => {
@@ -44,7 +44,7 @@ const PostDetailView = () => {
                     postId: postId
                 }
             };
-            const response = await axios.get(`${awsURL}/api/post/view`, params);
+            const response = await axios.get(`${localURL}/api/post/view`, params);
             return response;
         }
 
@@ -55,7 +55,7 @@ const PostDetailView = () => {
                 userId: userId
             }
         };
-        const response = await axios.get(`${awsURL}/api/post/view`, params);
+        const response = await axios.get(`${localURL}/api/post/view`, params);
         return response;
     }, {
         enabled: false,
