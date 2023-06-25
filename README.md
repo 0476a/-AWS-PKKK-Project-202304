@@ -87,4 +87,64 @@ ___
 > 본인이 작성한 리뷰들을 확인할 수 있고 수정 및 삭제 가능
 
 ### 즐겨찾기 페이지
-<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/11f35cb7-bf47-4ece-840c-70201ffd4503" style="width: 1000px;"/>
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/ebe4966d-587a-4e0e-9582-c53c654eed81" style="width: 1000px;"/>
+
+> 저장한 피드와 장소들을 확인할 수 있다.
+
+### 지도 페이지
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/675c0371-96a5-4978-8250-f168bbfcaaec" style="width: 1000px;"/>
+
+> 마커를 클릭하면 장소의 정보를 확인할 수 있고, 해당 장소의 리뷰를 작성할 수 있다.
+
+### 게시글 작성 페이지
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/a70c2860-9e27-4102-bc71-6984c9dc7f03" style="width: 1000px;"/>
+
+> 별점, 사진, 리뷰를 작성할 수 있다.
+
+### 게시글 수정 페이지
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/2d97709a-7a38-4f19-af27-aa0568e1ab97" style="width: 1000px;"/>
+
+> 기존 게시글을 수정할 수 있다.
+
+### 마이 페이지
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/799b6f7e-b581-476e-8211-b535341340c0" style="width: 1000px;"/>
+
+> 사용자 정보 수정과 페이지 이동이 가능하다.
+
+### 프로필 수정 페이지
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/fc436316-8690-4a4a-acfd-5fabcbb92142" style="width: 1000px;"/>
+
+> 사용자 프로필을 수정할 수 있다.
+
+___
+
+## API 명세서
+
+### [🌐REST API](https://petite-ceiling-0a2.notion.site/PKKK-API-e74030b903434e79a3fcb557fbb60a76)
+
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/d952f2f0-4026-436c-9ab8-ffc5098b0d2e" style="width: 1000px;"/>
+
+___
+
+## ERD 명세서
+
+### [🌐ERD 명세서](https://www.erdcloud.com/d/Yr3W7jvMi9s9uQu8J)
+
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/4f0f0883-4075-4880-849d-4a8cfd1d5e3f" style="width: 1000px;"/>
+
+___
+
+## 개선 및 보완점
+
+### 백엔드 부분
+- ID, PW 찾기 구현: noreply 인증 메일 전송
+- 점주 전용 페이지 구현: ROLE_HEAD 할당
+- 요청 시 보안 강화: 스프링 내에서 atk만 이용하여 추가 param을 받지 않도록 처리
+
+### 프론트엔드 부분
+- 비밀번호 변경 구현하기
+- 게시글 작성 시에도 사진 미리 보기 추가하기
+- 리뷰 상세 페이지에서 자신의 게시글 수정 삭제 가능하게 구현
+
+
+
