@@ -36,4 +36,55 @@ ___
 
 ___
 
+## 언어 및 데이터 베이스
+<img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white"/>
+<img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 
+___
+
+## 프레임워크
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/>
+
+___
+
+## 배포
+<img src="https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=aws&logoColor=white"/>
+
+- [📖배포 관련 내용](https://donotthinkjustdo.tistory.com/category/Web/%EC%82%B0%EB%8C%80%ED%8A%B9%28AWS%29)
+
+___
+
+## 그외 사용한 것
+- Redis
+- FireBase Cloud Storage
+
+___
+
+## 주요 구현 기능
+
+### 로그인 화면
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/d3ae42be-cb3a-4418-8848-d9300acd9b55" style="width: 1000px;"/>
+
+> 로그인 기능
+
+### 회원가입 화면
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/53bbd643-3b00-4eb7-aa7f-4588900f6677" style="width: 1000px;"/>
+
+> 회원정보 추가
+
+### 피드 페이지
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/c819b199-4cb4-4429-85d9-a935fa59418f" style="width: 1000px;"/>
+
+> 모든 리뷰글들을 확인할 수 있다.
+
+### 타임라인 페이지
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/11f35cb7-bf47-4ece-840c-70201ffd4503" style="width: 1000px;"/>
+
+> 본인이 작성한 리뷰들을 확인할 수 있고 수정 및 삭제 가능
+
+### 즐겨찾기 페이지
+<img src="https://github.com/0476a/-AWS-PKKK-Project-202304/assets/120405087/11f35cb7-bf47-4ece-840c-70201ffd4503" style="width: 1000px;"/>
